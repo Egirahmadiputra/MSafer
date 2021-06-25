@@ -139,7 +139,7 @@ class HomePage extends StatelessWidget {
               accountName: Text('$username'),
               accountEmail: Text("$username@gmail.com"),
               decoration: BoxDecoration(
-                color: Colors.orange,
+                color: Colors.yellow,
               ),
             ),
             _buildListTile(Icons.notifications, "Notifications", null),

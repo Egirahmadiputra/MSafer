@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import './launcher.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -12,11 +13,10 @@ class MyApp extends StatelessWidget {
       title: 'Login',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.orange,
+        primarySwatch: Colors.yellow,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: LauncherPage(),
-      
     );
   }
 }

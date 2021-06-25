@@ -15,7 +15,7 @@ class _LauncherPageState extends State<LauncherPage> {
     startLaunching();
   }
 
-startLaunching() async {
+  startLaunching() async {
     var duration = const Duration(seconds: 3);
     return new Timer(duration, () {
       Navigator.of(context).pushReplacement(new MaterialPageRoute(builder: (_) {
@@ -45,7 +45,7 @@ startLaunching() async {
             gradient: LinearGradient(
                 begin: Alignment.topCenter,
                 end: Alignment.bottomCenter,
-                colors: [Colors.orange[300], Colors.white70])),
+                colors: [Colors.yellow[300], Colors.white70])),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.center,
@@ -59,9 +59,7 @@ startLaunching() async {
             ),
             Text(
               'Management your money easly ',
-              style: TextStyle(
-                color: Colors.grey, 
-                fontSize: 16),
+              style: TextStyle(color: Colors.grey, fontSize: 16),
             ),
           ],
         ),
